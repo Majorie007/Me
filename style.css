@@ -1,0 +1,70 @@
+header{
+    text-align: center;
+    background-color: lightgray;
+    width: 100%;
+    height: 80px;
+    padding: 7px;
+}
+footer{
+    text-align: center; color: olive;
+    background-color: lightgrey;
+    width: 100%;
+    height: 50px;
+    padding: 7px;
+}
+body {
+    font-family: Verdana, sans-serig; font-size: 18px; color: black;
+    background-color: #874747;
+    padding: 7px;
+    margin: 15px 15px
+  }
+input[type="text"], input[type="email"], textarea, select, button{
+display: block;
+margin: 15px 0px;
+width: 500px;
+height: 25px;
+box-sizing: border-box;
+border-radius: 5px; box-shadow: inset 2px 2px 5px blue;
+}
+textarea{
+    height: 150px;
+    padding: 5px 4px;
+}
+button:active{
+    background-color: blue;
+    color: rgb(167, 81, 81);
+    border-radius: 4px; box-shadow: inset 2px 2px 5px rgb(91, 19, 3);
+}
+nav ul li {
+    display: inline-block;
+  }
+ul a{
+    color: white;
+    text-decoration: none;
+    }
+li{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid green;
+    border-right: 1px solid green;
+    background-color: olive;
+    }
+li:hover{
+    background-color: lightgreen;
+    border-style: none;
+    }
+h1{
+    margin-left: 200px;
+    }
+td{
+    padding: 5px;
+    text-align: center;
+    width: 350px;
+    height: 25px;
+  }
+  
+  

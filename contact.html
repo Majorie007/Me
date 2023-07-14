@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+  <title>Mijn Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mijncv.html">Mijn CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <form method="POST" action="https://formspree.io/f/xeqbqvow">
+    <fieldset>
+    <legend><h2><u>Contactformulier</u></h2></legend>
+    <label for="Voornaam"><b>Voornaam</b></label>
+    <input id="Voornaam" type="text" name="Voornaam" placeholder="Voer hier uw voornaam in"><br>
+    <label for="Achternaam"><b>Achternaam:</b></label>
+    <input id="Achternaam" type="text" name="Achternaam" placeholder="Voer hier uw achternaam in"><br>
+    <label for="Adres"><b>Adres:</b></label>
+    <input id="Adres" type="text" name="Adres" placeholder="Voer hier uw adres in">
+    <label for="Huisnummer"><b>Huisnummer:</b></label>
+    <input id="Huisnummer" type="text" name="Huisnummer" placeholder="Voer hier uw huisnummer in"><br>
+    <label for="email"><b>E-mailadres</b></label>
+    <input type="email" id="email" name="email" placeholder="Voer hier uw e-mailadres in" required><br>
+    <label for="Bericht"><b>Bericht:</b></label>
+    <textarea id="Bericht" name="Bericht" maxlength="1500" placeholder="Schrijf hier uw bericht"></textarea><br>
+    <button><b>Verzenden</b></button><br>
+  </fieldset>
+    </form>
+<footer>
+<p>&copy; 2023 Mijn Website</p>
+  </footer>
+</body>
+</html>
